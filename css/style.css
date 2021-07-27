@@ -1,4 +1,4 @@
-*,*:after,*:before{
+*,*::before,*::after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
@@ -26,8 +26,8 @@ header{
 	left: 0;
 	top:0;
 	width: 100%;
-	z-index: 10;
-	padding: 20px 0;
+	z-index: 1000;
+	padding: 15px 5px;
 	backdrop-filter:blur(30px);
 	
 }
@@ -42,10 +42,51 @@ header .container{
 	align-items: center;
 	justify-content: space-between;
 }
-.logo{
-	width: 240px;
-	align-content: center;
+
+.logo img{
+	width: 140px;
 }
+
+
+
+.main_container{
+	height: 100vh;
+	width: 200vh;
+	overflow: auto;
+}
+.block-row{
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center center;
+	background-blend-mode: darken;
+	background-color: rgba(48,64,166,0.8);
+	font-size: 20px;
+	color: #fff;
+}
+.block-row h2{
+	font-size: 90px;
+	font-weight: 700;
+}
+
+.border_left{
+	background: #000000;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 15px;
+	height: 100vh;
+	z-index: 1000;
+}
+.border_bottom{
+	background: #000000;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 15px;
+	z-index: 1000;
+}
+
 .main-nav{
 	padding: 0;
 	margin: 0;
@@ -113,3 +154,12 @@ input[type="submit"]:hover{
 	opacity: 0.7;
 }
 
+
+#particles-js{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
