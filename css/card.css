@@ -15,7 +15,7 @@ a {
 .card-list {
     display: flex;
     padding: 3rem;
-    overflow-x: scroll;
+    overflow-x: 
 }
 
 .card-list::-webkit-scrollbar {
