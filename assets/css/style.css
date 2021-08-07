@@ -150,8 +150,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffc451;
 }
 
-#header .logo img {
-  max-height: 40px;
+
+.logo img {
+  height: auto;
+  width: 240px;
 }
 
 /*--------------------------------------------------------------
