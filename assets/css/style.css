@@ -71,11 +71,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 100;
 	text-align: center;
 	font-size: 30px;
+  filter: opacity(90%);
+
 }
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
-	background: #ffc451;
+	background: #000000;
+  filter: opacity(60%);
 	display: inline-block;
 }
 #clockdiv div > span{
@@ -87,6 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 .smalltext{
 	padding-top: 5px;
 	font-size: 16px;
+  filter: opacity(90%);
 }
 
 /*--------------------------------------------------------------
