@@ -110,7 +110,11 @@ a {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+<<<<<<< HEAD
     
+=======
+    filter: grayscale(100%);
+>>>>>>> 91e52f5a06c399a1516f36e31223065e96597a94
     display: block;
     overflow: hidden;
     margin: 16px 10px;
