@@ -425,7 +425,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/filter.jpg") top center;
+  background: url("../img/filter_subbg.jpg") top center;
   background-size: cover;
   position: relative;
   font:bold,small-caps,cursive;
@@ -728,7 +728,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/filter.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
