@@ -425,7 +425,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/debug2.jpeg") top center;
+  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -453,7 +453,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 64px;
   color: #fff;
   font-family: "Poppins", sans-serif;
-  text-align: left;
 }
 
 #hero h1 span {
@@ -728,7 +727,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/debug1.jpeg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
