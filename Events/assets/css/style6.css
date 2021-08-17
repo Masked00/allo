@@ -453,6 +453,9 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 64px;
   color: #fff;
   font-family: "Poppins", sans-serif;
+  margin-left: auto;
+  display: block;
+  text-align: right;
 }
 
 #hero h1 span {
