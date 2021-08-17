@@ -425,7 +425,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/neon_stuff.jpg") top center;
+  background: url("../img/events/e1.gif") top center;
   background-size: cover;
   position: relative;
 }
@@ -727,7 +727,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ideathon.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/events/e1.gif") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
