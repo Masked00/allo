@@ -288,7 +288,7 @@
 
 /** clock */
 
-var deadline = new Date("sept 20, 2021 00:00:01").getTime();
+var deadline = new Date("sept 21, 2021 00:00:01").getTime();
 
 var x = setInterval(function () {
 
