@@ -451,7 +451,10 @@ body {
     font-size: 56px;
     font-weight: 700;
     line-height: 64px;
-    color: #fff;
+    background-clip: text;
+	  -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('https://www.publicdomainpictures.net/pictures/40000/velka/stripes-background-colorful.jpg');
     font-family: "Poppins", sans-serif;
   }
   
